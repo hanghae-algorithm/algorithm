@@ -1,5 +1,6 @@
 # Algorithm Study Group 
 윤송 테스트
+gorigori
 정상적으로 됩니다 ㅡ
 ## 팀원
   양다현, 명재국, 김동현, 윤송
