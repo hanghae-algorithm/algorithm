@@ -1,5 +1,6 @@
 # Algorithm Study Group 
 윤송 테스트
+gorigori
 정상적으로 됩니다 ㅡ
 동현 테스트
 ## 팀원
