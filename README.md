@@ -44,5 +44,6 @@ gorigori
    PC 폴더와 git 환경을 동일하지 않을 시 push가 안될 수 있습니다. <br>
    만약 pull 관련 에러가 발생하면 pull를 먼저 진행하신 후에 push를 해주세요.
 
+안녕하세요
       
       
