@@ -29,7 +29,7 @@ for idx in idxs:                        ##2, 9, 5 차례대로 들어감
     while True:
         if dq[0] == idx:                #방금 들어간 값이 dq[0]번째라면
             print(dq,'dq[0]==idx')
-            dq.popleft()                #dq에서 방금 것 삭제
+            dq.popleft()                #dq에서 방금 것(dq[0]) 삭제
             
             break
         else:
