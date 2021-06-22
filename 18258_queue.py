@@ -21,7 +21,7 @@ class Node:
 
 
 class Queue:
-    def __init__(self):
+    def __init__(self): # 생성자를 이용하면 객체가 생성될때부터 값을 가질 수 있다.
         self.head = None
         self.tail = None
         self.size = 0
@@ -32,7 +32,6 @@ class Queue:
         if self.is_empty():
             self.head = new_node
         else:
-            # 왜 self.tail.next에도 노드를 추가할까?
             self.tail.next = new_node
         self.size += 1
         self.tail = new_node
@@ -40,7 +39,6 @@ class Queue:
     def pop(self):
         if self.is_empty():
             return -1
-
         temp = self.head
         self.head = self.head.next
         self.size -= 1

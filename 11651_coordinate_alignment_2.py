@@ -15,7 +15,10 @@ for i in range(n):            #점의 개수 만큼 반복한다.
 s = sorted(array)             #배열의 순서를 정렬해준다. (y에 대해 오름차순 이후 x에 대해 오름차순)
 
 for a, b in s:                #y,x 형식으로 정렬된 배열을 x, y 형식으로 한줄씩 출력한다.
-    print(b, a) 
+    print(b, a)
+
+# for y, x in s:
+#     print(x,y)
     
 # for R in range(len(s)):
 #      print(s[R][1], s[R][0])
