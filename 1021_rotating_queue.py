@@ -15,7 +15,6 @@
 #     4-2-3. 여기서 신경써야 할 점은, dq의 길이가 홀수일 때는 중간 인덱스까지 앞으로 돌리는 것이 빠르므로, (dq의 길이/2)값이 자동 내림되지 않도록 해야한다. (1 2 3 4 5 일때, 1 2 3은 앞으로, 4 5는 뒤로)
 
 
-
 from collections import deque
 import sys
 input = sys.stdin.readline

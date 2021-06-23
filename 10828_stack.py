@@ -120,3 +120,4 @@ for i in range(key):
     if command[0] == "pop":
         stack.pop()
 
+
