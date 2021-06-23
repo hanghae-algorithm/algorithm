@@ -5,7 +5,6 @@ t = int(sys.stdin.readline())
 dp = [[0]*30 for _ in range(30)]     # dp 테이블 만들기
 
 
-
 for i in range(30):            # 0~ 29까지 반복   (N과 M의 범위)
     for j in range(30):        # i 0 j0~29, i 1 j 0~29
         if i == 1:
