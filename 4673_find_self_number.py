@@ -32,4 +32,4 @@ for i in range(len(self_number)):
     if self_number[i]:     # True 만 반환해준다.
         print(i)
 
-# 노션에 대해서 얘기해보기
+

@@ -34,28 +34,18 @@ def dfs(size):
         #  배열에 '*' 추가시 대괄호없이 출력
         print(*stack)
         return
-    # size = 0
-    # stack = []
-    # i = 0
-    # visited = [1, 1, 1, 1]
-    for i in range(n):  # n이 4일시 -> 0, 1, 2, 3
+
+    for i in range(n):
         if visited[i] == 0:
             visited[i] = 1  # 중복 접근 방지를 위해 1로 변경
             stack.append(i+1)   # 수열 추가
             dfs(size + 1)   # 다음 깊이 탐색
             i = 0
             stack.pop()     # 탐색한 내용은 제거
-            # visited 배열이 모두 1로 바뀌었을 때 초반에(i=0)
-            # 끝나지않은 재귀함수가 다시 호출이 되어 visited 배열을 다시 0값으로 변경한다.
+            # visited 배열이 모두 1로 바뀌었을 때 초반에(i=0) 끝나지않은 재귀함수가 다시 호출이 되어 visited 배열을 다시 0값으로 변경한다.
             for j in range(i+1, n):  # range(4,4)
                 visited[j] = 0
 
 
 dfs(0)
-
-# print
-# 1, 2
-# 1, 3
-#
-#
 
